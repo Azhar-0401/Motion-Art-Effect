@@ -1,5 +1,4 @@
 import React from 'react';
-import HomePage from './components/HomePage';
 import './index.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
@@ -7,6 +6,7 @@ import ReviewsSection from './components/ReviewSection';
 import ApplySection from './components/ApplySection';
 import SupportSection from './components/SupportSection';
 import FeaturesSection from './components/FeaturesSection';
+import FooterSection from './components/FooterSection';
 function App() {
   return (
     <div className="App">
@@ -16,6 +16,7 @@ function App() {
       <ApplySection/>
       <SupportSection/>
       <FeaturesSection/>
+      <FooterSection/>
     </div>
   );
 }
