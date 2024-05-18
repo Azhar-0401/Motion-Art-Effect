@@ -50,7 +50,7 @@ const ReviewsSection = () => {
               Purchase From Envato &rarr;
             </button>
           </div>
-          <div className="w-full sm:w-1/4 lg:w-1/3 flex justify-center"> {/* Right div */}
+          <div className="w-full sm:w-1/4 lg:w-1/3 flex justify-center">
             <img src={wandImage} alt="Magic Wand" className="h-48 md:h-56 lg:h-64" />
           </div>
         </div>
