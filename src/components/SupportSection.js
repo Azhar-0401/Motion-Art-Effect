@@ -1,5 +1,5 @@
 import React from 'react';
-import browserSupportImage from '../assets/images/motionarteffect-img8.png';
+import browserSupportImage from '../assets/images/motionarteffect-img8.png'; 
 
 const SupportSection = () => {
   return (

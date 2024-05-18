@@ -6,7 +6,7 @@ import userFriendlyImage from '../assets/images/motionarteffect-img7.png';
 const FeaturesSection = () => {
   return (
     <div className="bg-gray-900 text-white py-16 px-8">
-      <div className="max-w-8xl mx-auto text-center mb-8"> 
+      <div className="max-w-8xl mx-auto text-center"> 
         <h2 className="text-4xl font-bold mb-3">An All-Round Plugin With</h2>
         <h2 className="text-4xl font-bold mb-6">Powerful Features</h2>
         <div>
@@ -33,14 +33,16 @@ const FeaturesSection = () => {
             <div className="flex flex-col items-start">
               <img src={responsiveImage} alt="100% Responsive" className="h-25 mb-5" />
               <h3 className="text-3xl font-semibold mb-2">100% Responsive</h3>
-              <p className="text-xl">Create a consistent visual experience across all devices.</p>
+              <p className="text-xl">Create a consistent visual experience </p>
+              <h1 className="text-xl">across all devices.</h1>
             </div>
           </div>
           <div className="bg-gradient-to-b from-gray-800 to-gray-900 p-8 rounded-lg shadow-lg" style={{ height: '400px' }}>
             <div className="flex flex-col items-start">
               <img src={userFriendlyImage} alt="User Friendly Interface" className="h-25 mb-5" />
               <h3 className="text-3xl font-semibold mb-2">User Friendly Interface</h3>
-              <p className="text-xl">Ensure a smooth experience for both applicants and administrators.</p>
+              <p className="text-xl">Ensure a smooth experience for both</p>
+              <h1 className="text-xl"> applicants and administrators.</h1>
             </div>
           </div>
         </div>

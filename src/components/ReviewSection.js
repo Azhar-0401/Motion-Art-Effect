@@ -36,11 +36,11 @@ const ReviewsSection = () => {
           </div>
         </div>
         <div className="flex justify-between items-start text-left mb-12"> 
-          <div className="w-full sm:w-3/4 lg:w-2/3"> {/* Left div */}
+          <div className="w-full sm:w-3/4 lg:w-2/3"> 
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
               Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors
             </h2>
-            <p className="text-lg sm:text-xl md:text-2xl mb-8"> {/* Removed ml-0 */}
+            <p className="text-lg sm:text-xl md:text-2xl mb-8"> 
               Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.
             </p>
             <button
@@ -50,7 +50,7 @@ const ReviewsSection = () => {
               Purchase From Envato &rarr;
             </button>
           </div>
-          <div className="w-full sm:w-1/4 lg:w-1/3 flex justify-center">
+          <div className="w-full sm:w-1/4 lg:w-1/3 flex justify-center"> 
             <img src={wandImage} alt="Magic Wand" className="h-48 md:h-56 lg:h-64" />
           </div>
         </div>
