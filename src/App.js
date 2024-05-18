@@ -6,7 +6,7 @@ import HeroSection from './components/HeroSection';
 import ReviewsSection from './components/ReviewSection';
 import ApplySection from './components/ApplySection';
 import SupportSection from './components/SupportSection';
-
+import FeaturesSection from './components/FeaturesSection';
 function App() {
   return (
     <div className="App">
@@ -15,6 +15,7 @@ function App() {
       <ReviewsSection/>
       <ApplySection/>
       <SupportSection/>
+      <FeaturesSection/>
     </div>
   );
 }
