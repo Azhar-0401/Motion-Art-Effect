@@ -10,34 +10,34 @@ const ReviewsSection = () => {
     <div className="bg-gray-900 text-white py-16 px-8">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <p className="text-4xl font-extrabold mb-10">Trusted by thousands of users around the world</p>
+          <p className="text-2xl sm:text-4xl font-extrabold mb-10">Trusted by thousands of users around the world</p>
         </div>
-        <div className="flex justify-between items-center space-x-20 mb-16">
-          <div className="flex items-center space-x-4">
-            <img src={envatoLogo} alt="Envato" className="h-20 mb-2" />
+        <div className="flex flex-col sm:flex-row justify-between items-center space-y-8 sm:space-y-0 sm:space-x-20 mb-16">
+          <div className="flex flex-col sm:flex-row items-center space-x-4">
+            <img src={envatoLogo} alt="Envato" className="h-16 sm:h-20 mb-2" />
             <div className="flex flex-col items-center">
               <img src={star} alt="star" className="h-12 mb-2 w-40" />
               <p className="text-lg">4.5 Score, 9 Reviews</p>
             </div>
           </div>
-          <div className="flex items-center space-x-4">
-            <img src={g2Logo} alt="G2" className="h-20 mb-2" />
+          <div className="flex flex-col sm:flex-row items-center space-x-4">
+            <img src={g2Logo} alt="G2" className="h-16 sm:h-20 mb-2" />
             <div className="flex flex-col items-center">
               <img src={star} alt="star" className="h-12 mb-2 w-40" />
               <p className="text-lg">4.5 Score, 9 Reviews</p>
             </div>
           </div>
-          <div className="flex items-center space-x-4">
-            <img src={wordpressLogo} alt="WordPress" className="h-20 mb-2" />
+          <div className="flex flex-col sm:flex-row items-center space-x-4">
+            <img src={wordpressLogo} alt="WordPress" className="h-16 sm:h-20 mb-2" />
             <div className="flex flex-col items-center">
               <img src={star} alt="star" className="h-12 mb-2 w-40" />
               <p className="text-lg">4.5 Score, 9 Reviews</p>
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-start text-left mb-12"> 
-          <div className="w-full sm:w-3/4 lg:w-2/3"> 
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+        <div className="flex flex-col lg:flex-row justify-between items-start text-left mb-12"> 
+          <div className="w-full lg:w-2/3 mb-8 lg:mb-0"> 
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
               Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors
             </h2>
             <p className="text-lg sm:text-xl md:text-2xl mb-8"> 
@@ -50,7 +50,7 @@ const ReviewsSection = () => {
               Purchase From Envato &rarr;
             </button>
           </div>
-          <div className="w-full sm:w-1/4 lg:w-1/3 flex justify-center"> 
+          <div className="w-full lg:w-1/3 flex justify-center"> 
             <img src={wandImage} alt="Magic Wand" className="h-48 md:h-56 lg:h-64" />
           </div>
         </div>
