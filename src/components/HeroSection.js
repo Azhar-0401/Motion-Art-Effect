@@ -13,18 +13,8 @@ const HeaderSection = () => {
           Purchase Now
         </button>
       </div>
-      <div className="absolute top-1/4 left-0 p-4">
-        <p className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-purple-500 to-blue-600 ml-4 sm:ml-14">
-          Transform
-        </p>
-        <p className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-purple-500 to-blue-600 ml-4 sm:ml-14">
-          Your Website
-        </p>
-        <p className="text-lg ml-4 sm:ml-14">With Motion Art</p>
-        <p className="text-lg ml-4 sm:ml-14">Effect</p>
-      </div>
-      <div className="mt-20 sm:mt-40 max-w-4xl mx-auto">
-        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold leading-tight text-center sm:text-left">
+      <div className="mt-20 sm:mt-40 max-w-4xl mx-auto text-center sm:text-left order-2 sm:order-1">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold leading-tight">
           Attract Your<br />
           <span className="inline-block">Visitors Attention<br /></span>
           With Colorful<br /> 
@@ -32,9 +22,19 @@ const HeaderSection = () => {
             Motion Art Effect
           </span>
         </h1>
-        <p className="mt-6 sm:mt-14 text-lg sm:text-xl md:text-2xl text-center sm:text-left">
+        <p className="mt-6 sm:mt-14 text-lg sm:text-xl md:text-2xl">
           Unleash the power of creativity with Motion Art for Elementor - your ultimate solution for seamlessly integrating captivating animations into your website.
         </p>
+      </div>
+      <div className="absolute top-1/4 left-0 p-4 order-1 sm:order-2">
+        <h2 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-purple-500 to-blue-600 ml-4 sm:ml-14">
+          Transform
+        </h2>
+        <h2 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-purple-500 to-blue-600 ml-4 sm:ml-14">
+          Your Website
+        </h2>
+        <p className="text-lg ml-4 sm:ml-14">With Motion Art</p>
+        <p className="text-lg ml-4 sm:ml-14">Effect</p>
       </div>
     </div>
   );
