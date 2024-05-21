@@ -1,7 +1,7 @@
 import React from 'react';
 import heroImage from '../assets/images/MotionArtEffect-logo.png';
 
-const HeaderSection = () => {
+const HeroSection = () => {
   return (
     <div className="relative bg-gray-900 text-white py-16 px-8">
       <div className="absolute top-0 left-0 right-0 flex justify-between items-start p-4 w-full">
@@ -17,7 +17,7 @@ const HeaderSection = () => {
         <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold leading-tight">
           Attract Your<br />
           <span className="inline-block">Visitors Attention<br /></span>
-          With Colorful<br /> 
+          With Colorful<br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-purple-500 to-blue-600">
             Motion Art Effect
           </span>
@@ -36,8 +36,18 @@ const HeaderSection = () => {
         <p className="text-lg ml-4 sm:ml-14">With Motion Art</p>
         <p className="text-lg ml-4 sm:ml-14">Effect</p>
       </div>
+      <iframe
+        className="full-screen-preview__frame"
+        src="https://qodematrix.com/motion-art-for-elementor/"
+        name="preview-frame"
+        frameBorder="0"
+        noResize="noresize"
+        data-view="fullScreenPreview"
+        allow="geolocation 'self'; autoplay 'self'"
+        style={{ height: '400px', width: '100%' }}
+      />
     </div>
   );
 }
 
-export default HeaderSection;
+export default HeroSection;
